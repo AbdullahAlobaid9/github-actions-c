@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  pytest:
+  build-app:
     runs-on: ubuntu-latest
     steps:
       - name: Copies the code
