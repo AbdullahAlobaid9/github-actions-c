@@ -26,5 +26,5 @@ jobs:
         with:
           push: true
           tags: |
-            afalobaid9/C-app:latest
-            afalobaid9/C-app:${{ github.sha }}
+            afalobaid9/c-app:latest
+            afalobaid9/c-app:${{ github.sha }}
