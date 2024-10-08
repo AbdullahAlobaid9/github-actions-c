@@ -12,5 +12,5 @@ jobs:
       - name: Copies the code
         uses: actions/checkout@v4
 
-      - name: build and run app
+      - name: build the app
         run: docker compose up
