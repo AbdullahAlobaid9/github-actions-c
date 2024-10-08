@@ -1,0 +1,16 @@
+name: building C app to test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copies the code
+        uses: actions/checkout@v4
+
+      - name: build and run app
+        run: docker compose up
