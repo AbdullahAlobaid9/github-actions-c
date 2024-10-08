@@ -1,4 +1,4 @@
 services:
   web:
     build: .
-    command: ./hello
+    command: gcc hello.c -o hello
